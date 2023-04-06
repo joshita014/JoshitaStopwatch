@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <!-- linking css file -->
+    <link rel = "stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <!-- Main class of stopwatch -->
+    <div class="stopwatch">
+
+        <!-- creating id to display the timer -->
+        <h1 id = "displayTime">00:00:00</h1>
+
+        <!-- button Images are attached under class button -->
+        <div class="buttons">
+            <img src="images/stop.png" onclick="watchStop()">
+            <img src="images/start.png" onclick="watchStart()">
+            <img src="images/reset.png" onclick="watchReset()">
+
+        </div>
+
+    </div>
+
+    <!-- linking javascript -->
+    <script type="text/javascript" src="stopwatch.js"></script>
+</body>
+</html>

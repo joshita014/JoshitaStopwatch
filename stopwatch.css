@@ -1,0 +1,68 @@
+
+/*url of Google Font for digits  */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Philosopher:ital@1&display=swap');
+
+
+/* background images and font assign for the stopwatch */
+body{
+    background-image: url("https://c1.wallpaperflare.com/preview/729/448/11/pocket-watch-clock-time-old.jpg");
+    font-family: 'Courgette', cursive;
+font-family: 'Philosopher', sans-serif;
+}
+
+/* the inner container */
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/istockphoto-1146511178-170667a.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color:#fff;
+    margin: 250px auto 0;
+    margin-bottom: 50px;
+    border: 1px solid;
+    box-shadow:5px 10px 18px  rgba(225, 218, 218, 0.716);
+}
+
+/* Detailing of digits */
+.stopwatch h1{
+    margin-top: 40px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+/* properties for button */
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* function adding effects on the image button */
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+    box-shadow: 0 5px #999999d3;
+    border-radius: 50%;
+}
+
+/* effects while hovering over the button */
+.buttons img:hover{
+    border-radius: 50%;
+    width: 60px;
+    background-color:rgba(239, 229, 229, 0.24);
+}
+
+/* giving the click effect to the button */
+.buttons img:active {
+    background-color:rgba(239, 229, 229, 0.24);
+    box-shadow: 0 4px #363333d0;
+    transform: translateY(2px);
+  }
+.buttons img:nth-child(2){
+    width: 80px;
+}
+
